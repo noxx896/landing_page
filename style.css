@@ -1,6 +1,10 @@
 /* style css */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 body {
   margin: 0;
+  font-family: Roboto, sans-serif;
 }
 
 .kun {
@@ -61,6 +65,7 @@ body {
   padding-bottom: 32px;
   text-align: center;
 }
+
 .subtexts {
   display: flex;
   justify-content: space-around;
@@ -70,12 +75,61 @@ body {
 
 .subtext {
   display: flex;
+  border: solid 0.25em #3882f6;
+  border-radius: 1em;
+}
+
+.cont2 {
+  background-color: #e5e7eb;
+  padding-left: 250px;
+  padding-right: 250px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.quote {
+  color: #1f2937;
+  font-size: 36px;
+  font-style: italic;
+  font-weight:lighter;
+  text-align: justify;
+}
+
+.author-quote {
+  font-size: 24px;
+  font-weight: bold;
+  color: #1f2937;
+  padding-top: 25px;
+  text-align: right;
+}
+
+.cont3 {
+  padding: 100px 200px;
+}
+
+.action {
+  background-color: #3882f6;
+  color: #f9faf8;
+  padding: 50px 100px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 8px;
+}
+
+.call {
+  font-size: 20px;
+  font-weight: bold;
 }
 
 
 
 .footer {
   background-color: #1f2937;
+  color: #f9faf8;
+  padding: 32px;
+  text-align: center;
 }
 
 img {
@@ -93,6 +147,10 @@ button {
   font-weight: bold;
   border: none;
   border-radius: 8px;
+}
+
+.btn {
+  border: 2px solid #f9faf8;
 }
 
 ul {
